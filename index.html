@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="SigmaCodingWithSuheb" content="QR-CODE generator built using HTML, CSS, JAVASCRIPT">
+    <title>QR-CODE generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>QR-CODE Generator</h1>
+        <p>Enter your Text or URL</p>
+        <input type="text" placeholder="Text or URL" id="qrText">
+        <div class="imgBox pos" id="imgBox">
+            <img src="" id="qrImage">
+        </div>
+        <button onclick="GenerateQR()">Generate QR code</button>
+        <button onclick="DownloadQR()">Download QR code</button>
+        <p class="copyright">&copy; 2023 SigmaCodingWithSuheb. All rights reserved. <a href="https://suheb-portfolio.vercel.app/">Learn more</a></p>
+
+    
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
